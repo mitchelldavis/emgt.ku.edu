@@ -1,6 +1,7 @@
-Organic Traffic Keywords
------------------------
+[Search Engine Optimization Starter Guide](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
+Organic Traffic Keywords
+=======================
 1.) engineering management
 2.) what is engineering management
 3.) engineering manager
@@ -11,12 +12,13 @@ Organic Traffic Keywords
 8.) engineering management course
 
 Proposed Keywords
------------------
+================
 
 - Masters in Engineering Management
 - Overland Park
 - Kansas City
 - Masters Program
+- ?
 
 Page Titles
 ----------
@@ -103,11 +105,87 @@ Improve URLs
 
 Easy Navigation
 --------------
-
-TODO:
+I'm not sure this is something to worry about. I would say the menu bar at the top makes it easy to navigate the site.  There aren't many pages or nested pages for that matter, so a bread crumb feature might be overkill. 
 
 HTML Site Map Page and XML Sitemap
 ---------------------------------
+A simple sitemap.xml file for the emgt.ku.edu site.
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://emgt.ku.ed/about</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/admission</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/admission-requirements</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/contact-us</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/courses</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/overivew</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/tuition</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/courses</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/policies</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/course-schedules</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/current-student/textbooks</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/decree-comparisions</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/distance-learning</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/facilities</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/faculty</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/faq</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/key-aspects</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/people</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/program</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/program-requirements</loc>
+  </url>
+  <url>
+    <loc>http://emgt.ku.ed/tuition</loc>
+  </url>
+</urlset>
+```
+
+This would need to be placed in the root of the website because the `robots.txt` file will need to add this line:
+```
+Sitemap: http://emgt.ku.edu/sitemap.xml
+```
 
 Quality Content
 --------------
@@ -121,8 +199,9 @@ Optimize Images
 Headless Tags Appropriatly
 --------------------------
 
-repots.txt
+robots.txt
 ----------
+There is already a robots.txt file at [http://emgt.ku.edu/robots.txt]
 
 nofollow
 --------
