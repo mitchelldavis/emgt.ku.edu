@@ -1,15 +1,14 @@
-[Search Engine Optimization Starter Guide](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
 Organic Traffic Keywords
 =======================
-1.) engineering management
-2.) what is engineering management
-3.) engineering manager
-4.) management engineering
-5.) emgt ku
-6.) engineering and management
-7.) what is engineering management?
-8.) engineering management course
+1. engineering management
+2. what is engineering management
+3. engineering manager
+4. management engineering
+5. emgt ku
+6. engineering and management
+7. what is engineering management?
+8. engineering management course
 
 Proposed Keywords
 ================
@@ -19,6 +18,8 @@ Proposed Keywords
 - Kansas City
 - Masters Program
 - ?
+
+[Search Engine Optimization Starter Guide](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
 Page Titles
 ----------
@@ -189,15 +190,19 @@ Sitemap: http://emgt.ku.edu/sitemap.xml
 
 Quality Content
 --------------
+TODO:
 
 Better Anchor Text
 -----------------
+TODO:
 
 Optimize Images
 --------------
+TODO:
 
 Headless Tags Appropriatly
 --------------------------
+TODO:
 
 robots.txt
 ----------
@@ -205,6 +210,8 @@ There is already a robots.txt file at [http://emgt.ku.edu/robots.txt]
 
 nofollow
 --------
+TODO:
 
 notify of mobile ready
 ---------------------
+TODO:
